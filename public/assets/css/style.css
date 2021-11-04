@@ -1,0 +1,29 @@
+.bannerSeguridad{
+    height: 25rem;
+    background-image: url("/assets/images/bannerSeguridad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+    margin-bottom: 5%;
+}
+.iconInicio{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+@media(max-width:991px){
+    .bannerSeguridad{
+        margin-bottom: 15%;
+    }
+    .bannerSeguridad{
+        background-position: 55% 85%;
+        
+    }
+    .titleInicioProp{
+        margin-bottom: 20%;
+    }
+
+}
