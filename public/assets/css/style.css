@@ -26,7 +26,6 @@
     background-attachment: fixed;
     transition: 0s linear;
     background-position: 25% 85%;
-    margin-bottom: 5%;
     margin-top: 5%;
 }
 .overlayEscudo{
@@ -36,6 +35,10 @@
 }
 .titleBanner{
     margin-top: 25%;
+}
+.formularioLoc{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 @media(max-width:991px){
@@ -54,6 +57,9 @@
     }
     .overlayEscudo{
         background-color: rgba(0, 0, 0, 0.568);
+    }
+    .buttonProductos{
+        margin-bottom: 10%;
     }
 
 }
