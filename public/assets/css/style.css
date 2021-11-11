@@ -17,15 +17,18 @@
     font-family: 'Nunito Sans', sans-serif !important;
     font-family: 'Work Sans', sans-serif !important;
 }
+.bolderFont{
+    font-weight: bolder;
+}
 .escudoBanner{
     height: 20rem;
-    background-image: url("/assets/images/escudoAzul.jpg");
+    background-image: url("/assets/images/camaraGris.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     transition: 0s linear;
-    background-position: 25% 85%;
+    background-position: 25% 22%;
     margin-top: 5%;
 }
 .overlayEscudo{
@@ -40,6 +43,14 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.titleCarr{
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 8px;
+}
+.carrCont{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 @media(max-width:991px){
     .bannerSeguridad{
@@ -53,13 +64,24 @@
         margin-bottom: 20%;
     }
     .escudoBanner{
-        background-position: 28% 85%;
+        background-position: 68% 85%;
     }
     .overlayEscudo{
         background-color: rgba(0, 0, 0, 0.568);
     }
     .buttonProductos{
         margin-bottom: 10%;
+    }
+    .cardServ{
+        margin-top: 5%;
+    }
+    .jumboHead{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .carrCont{
+        margin-top: 15%;
+        margin-bottom: 5%;
     }
 
 }
