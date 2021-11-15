@@ -22,7 +22,7 @@
 }
 .escudoBanner{
     height: 20rem;
-    background-image: url("/assets/images/camaraGris.jpg");
+    background-image: url("/assets/images/escudoAzul.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,8 +51,67 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.contactoDiv {
+    /* The image used */
+    background-image: url("/assets/images/survillance.jpg");
+    
+    /* Add the blur effect */
+    /* filter: blur(3px); */
+    /* -webkit-filter: blur(3px); */
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    
+}
+.formContactDiv {
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+}
+.footerfoot{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.bannerServicios{
+    height: 25rem;
+    background-image: url("/assets/images/escolta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+    margin-bottom: 5%;
+}
+.bannerProductos{
+    height: 25rem;
+    background-image: url("/assets/images/securityCamera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+    margin-bottom: 5%;
+
+}
 
 @media(max-width:991px){
+    .footerfoot{
+        padding-top: 10%;
+    }
     .bannerSeguridad{
         margin-bottom: 15%;
     }
@@ -64,7 +123,8 @@
         margin-bottom: 20%;
     }
     .escudoBanner{
-        background-position: 68% 85%;
+        background-image: url("/assets/images/escudoAzulCel.jpg");
+        height: 30rem;
     }
     .overlayEscudo{
         background-color: rgba(0, 0, 0, 0.568);
@@ -83,5 +143,63 @@
         margin-top: 15%;
         margin-bottom: 5%;
     }
+    .titleBanner{
+        margin-top: 50%;
+    }
+    .contactoDiv {
+        background-image: url("/assets/images/survillanceCel.jpg");
+
+    }
+    .bannerServicios{
+        background-image: url("/assets/images/escoltaCel.jpg");
+    }
+    .bannerProductos{
+        background-image: url("/assets/images/securityCameraCel.jpg");
+    }
 
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .formContactDiv {
+        margin-top: -40% !important;
+        width: 80%;
+    }
+    .contactoDiv {
+        height: 35rem !important;
+    }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+    .formContactDiv {
+        margin-top: -102%;
+        width: 80%;
+    }
+}
+@media (max-width: 375px) {
+    .formContactDiv {
+        margin-top: -120%;
+        width: 80%;
+    }
+}
+@media (max-width: 360px) {
+    .contactoDiv {
+        height: 42rem;
+    }
+    .formContactDiv {
+        margin-top: -124%;
+        width: 80%;
+    }
+}
+@media (max-width: 320px) {
+    .contactoDiv {
+        height: 61rem !important;
+    }
+    .formContactDiv {
+        margin-top: -152%;
+        width: 80%;
+    }
+}
+@media (max-width: 400px) {
+    .contactoDiv {
+        height: 56rem;
+    }
+} 
