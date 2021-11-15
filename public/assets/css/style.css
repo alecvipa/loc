@@ -156,6 +156,15 @@
     .bannerProductos{
         background-image: url("/assets/images/securityCameraCel.jpg");
     }
+    .contInfoProductos{
+        margin-top: 10%;
+    }
+    .cItem2{
+        margin: 8%;
+    }
+    .rowTitleProd{
+        margin-bottom: -10%;
+    }
 
 }
 
