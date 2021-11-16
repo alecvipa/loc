@@ -35,10 +35,9 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, zip: form.zip.value, number: form.tel.value, checkbox: form.checkBox.value }));
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, number: form.tel.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
-            window.location.href = "/gracias";
             return false;
         }
     </script>
