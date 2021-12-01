@@ -24,9 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    transition: 0s linear;
-    background-position: 25% 22%;
+    background-position: 25% 10%;
     margin-top: 5%;
 }
 .overlayEscudo{
@@ -146,6 +144,7 @@
     }
     .contactoDiv {
         background-image: url("/assets/images/survillanceCel.jpg");
+        height: 41rem;
 
     }
     .bannerServicios{
@@ -177,7 +176,7 @@
 }
 @media (min-width: 401px) and (max-width: 767px) {
     .formContactDiv {
-        margin-top: -102%;
+        margin-top: -78%;
         width: 80%;
     }
 }
