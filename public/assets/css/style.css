@@ -183,6 +183,10 @@
         margin-top: -120%;
         width: 80%;
     }
+    .cItem2{
+        margin: 0%;
+        margin-bottom: 8%;
+    }
 }
 @media (max-width: 360px) {
     .contactoDiv {
