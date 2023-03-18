@@ -18,6 +18,12 @@
 .bolderFont{
     font-weight: bolder;
 }
+.responsive-img{
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .escudoBanner{
     height: 20rem;
     background-image: url("/assets/images/escudoAzul.jpg");
